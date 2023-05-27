@@ -1,0 +1,42 @@
+git init: Inicializa un nuevo repositorio de Git en un directorio local.
+git config user.name "tu nombre": agrega nuestra identidad.
+git config user.email "tu correo": agregas tu direccion email.
+git add . : agregas todos los archivos.
+git add <archivo>: Agrega un archivo específico al área de preparación de Git.
+cd: para entrar en una carpeta.
+ls: para listar archivos. 
+ls -a: Lista todos los archivos, incluyendo los archivos ocultos.
+ls -R: Muestra las carpetas y los archivos contenidos en ellos de manera recursiva
+ls -l: Muestra toda la información de una carpeta: usuario, grupo, permisos, tamaño, fecha y hora de creación.
+mv [ruta del archivo1][ruta del archivo2]: renombra los archivos.
+mv [ruta de carpet1][ruta de carpet2]: Renombra la carpeta1 como carpeta2 (carpeta 2 no debe existir).
+cp [ruta de archivo 1] [ruta de archivo 2]:Copia un archivo o carpeta.
+opcion -r: indica que copie recursivamente el contenido de las subcarpetas.
+clear: Limpia la pantalla de la terminal.
+comando --help: Muestra ayuda del comando.
+ctrl + c: Finaliza un proceso vigente que está corriendo en la terminal.
+ ctrl + l: Limpia la pantalla de la termina.
+ “” (comillas): Nos permiten utilizar términos que consistan en más de una palabra.
+ . (el punto): Permite hacer referencia al directorio donde estamos ubicados actualmente.
+  cd ..:Sube un nivel de carpeta/sale de la carpeta.
+  cd/chosen/
+directory :Cambia a una carpeta específica.
+mv [ruta de carpet1][ruta de carpet2]: Mueve contenido de carpeta1 a carpeta2 (carpeta 2 debe existir)
+pwd: Muestra la carpeta en la que se está trabajando actualmente.
+mkdir: Crea una nueva directorio o carpeta.
+touch: crea un nuevo archivo
+git status: para ver seguimiento.
+git commit -m "mensaje": Realiza una confirmación (commit) de los cambios 
+git branch: Muestra la lista de ramas en el repositorio y resalta la rama actual.
+git branch -r:Muestra una lista de las ramas remotas disponibles
+git push <repositorio> <rama>: Envía los commits locales al repositorio remoto en una rama específica.
+git rm <archivo>, Git eliminará el archivo especificado tanto del directorio de trabajo como del índice de Git (área de preparación).
+git clone <url>: Clona un repositorio remoto existente en un directorio local.
+git switch <nombre_rama>: cambias de rama/Esto te permite trabajar en una rama diferente dentro del mismo repositorio.
+git pull <repositorio> <rama>: Actualiza el repositorio local con los cambios más recientes del repositorio remoto en una rama específica.
+git merge <rama>: Fusiona una rama en la rama actual.
+git log: Muestra el historial de confirmaciones (commits) en orden cronológico inverso.
+git remote add origin https://github.com/tu_usuario/tu_repositorio.git.:Es la URL del repositorio remoto al que deseas conectar tu repositorio local.
+git checkout <archivo>: se utiliza para cambiar de rama 
+
+
